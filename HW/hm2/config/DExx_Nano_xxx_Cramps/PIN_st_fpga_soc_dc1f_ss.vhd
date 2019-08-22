@@ -194,7 +194,7 @@ package Pintypes is
         emptypin,emptypin,emptypin,emptypin,emptypin,emptypin,emptypin,emptypin,
         emptypin,emptypin,emptypin,emptypin,emptypin,emptypin,emptypin,emptypin,
     	emptypin,emptypin,emptypin,emptypin,emptypin,emptypin,emptypin,emptypin,
-		emptypin,emptypin,emptypin,emptypin,emptypin,emptypin,emptypin,emptypin,
-		emptypin,emptypin,emptypin,emptypin,emptypin,emptypin,emptypin,emptypin);
+	emptypin,emptypin,emptypin,emptypin,emptypin,emptypin,emptypin,emptypin,
+	emptypin,emptypin,emptypin,emptypin,emptypin,emptypin,emptypin,emptypin);
 
 end package Pintypes; --PIN_Cramps_3x24_dpll_irq
