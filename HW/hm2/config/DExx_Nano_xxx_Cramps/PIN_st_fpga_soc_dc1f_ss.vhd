@@ -110,40 +110,40 @@ package Pintypes is
     constant PinDesc : PinDescType :=(
 --      Base       Sec      Sec       Sec
 --      func       unit     func      pin                   -- hostmot2 DE0-Nano     pin      Function
-        IOPortTag & x"00" & NullTag & NullPin,              -- I/O 00   GPIO_0 20    01        GP_Input_01 
-        IOPortTag & x"00" & NullTag & NullPin,              -- I/O 01   GPIO_0 20    02        GP_Input_00
-        IOPortTag & x"00" & NullTag & NullPin,              -- I/O 02   GPIO_0 21    03        GP_Input_03
-        IOPortTag & x"00" & NullTag & NullPin,              -- I/O 03   GPIO_0 22    04        GP_Input_02
-        IOPortTag & x"00" & NullTag & NullPin,              -- I/O 04   GPIO_0 23    05        GP_Input_05
-        IOPortTag & x"00" & NullTag & NullPin,              -- I/O 05   GPIO_0 24    06        GP_Input_04
-        IOPortTag & x"00" & NullTag & NullPin,              -- I/O 06   GPIO_0 25    07        GP_Input_07
-        IOPortTag & x"00" & NullTag & NullPin,              -- I/O 07   GPIO_0 26    08        GP_Input_06
-        IOPortTag & x"00" & NullTag & NullPin,              -- I/O 08   GPIO_0 27    09        GP_Input_09
-        IOPortTag & x"00" & NullTag & NullPin,              -- I/O 09   GPIO_0 28    10        GP_Input_08
-        IOPortTag & x"00" & NullTag & NullPin,              -- I/O 10   GPIO_0 29    13        GP_Input_11
-        IOPortTag & x"00" & NullTag & NullPin,              -- I/O 11   GPIO_0 30    14        GP_Input_10
-        IOPortTag & x"00" & NullTag & NullPin,              -- I/O 12   GPIO_0 31    15        GP_Input_13
-        IOPortTag & x"00" & NullTag & NullPin,              -- I/O 13   GPIO_0 32    16        GP_Input_12
-        IOPortTag & x"00" & NullTag & NullPin,              -- I/O 14   GPIO_0 33    17        GP_Input_15
-        IOPortTag & x"00" & NullTag & NullPin,              -- I/O 15   GPIO_0 34    18        GP_Input_14
-        IOPortTag & x"01" & QCountTag & QCountIdxPin,       -- I/O 16   GPIO_0 01    19        Enc1 Z
-        IOPortTag & x"00" & QCountTag & QCountIdxPin,       -- I/O 17   GPIO_0 02    20        Enc0 Z
-        IOPortTag & x"00" & QCountTag & QCountQAPin,        -- I/O 18   GPIO_0 03    21        Enc0 A
-        IOPortTag & x"02" & QCountTag & QCountIdxPin,       -- I/O 19   GPIO_0 04    22        Enc2 Z
-        IOPortTag & x"02" & QCountTag & QCountQAPin,        -- I/O 20   GPIO_0 05    23        Enc2 A
-        IOPortTag & x"01" & QCountTag & QCountQAPin,        -- I/O 21   GPIO_0 06    24        Enc1 A
-        IOPortTag & x"01" & QCountTag & QCountQBPin,        -- I/O 22   GPIO_0 07    25        Enc1 B
-        IOPortTag & x"00" & QCountTag & QCountQBPin,        -- I/O 23   GPIO_0 08    26        Enc0 B
-        IOPortTag & x"03" & QCountTag & QCountIdxPin,       -- I/O 24   GPIO_0 09    27        Enc3 Z
-        IOPortTag & x"02" & QCountTag & QCountQBPin,        -- I/O 25   GPIO_0 10    28        Enc2 B
-        IOPortTag & x"05" & QCountTag & QCountIdxPin,       -- I/O 26   GPIO_0 11    31        Enc5 Z
-        IOPortTag & x"04" & QCountTag & QCountIdxPin,       -- I/O 27   GPIO_0 12    32        Enc4 Z
-        IOPortTag & x"04" & QCountTag & QCountQAPin,        -- I/O 28   GPIO_0 13    33        Enc4 A
-        IOPortTag & x"03" & QCountTag & QCountQAPin,        -- I/O 29   GPIO_0 14    34        Enc3 A
-        IOPortTag & x"03" & QCountTag & QCountQBPin,        -- I/O 30   GPIO_0 15    35        Enc3 B
-        IOPortTag & x"05" & QCountTag & QCountQAPin,        -- I/O 31   GPIO_0 16    36        Enc5 A
-        IOPortTag & x"05" & QCountTag & QCountQBPin,        -- I/O 32   GPIO_0 17    37        Enc5 B
-        IOPortTag & x"04" & QCountTag & QCountQBPin,        -- I/O 33   GPIO_0 18    38        Enc4 B
+        IOPortTag & x"00" & NullTag & NullPin,              -- I/O 00   GPIO_0 01    01        GP_Input_01 
+        IOPortTag & x"00" & NullTag & NullPin,              -- I/O 01   GPIO_0 02    02        GP_Input_00
+        IOPortTag & x"00" & NullTag & NullPin,              -- I/O 02   GPIO_0 03    03        GP_Input_03
+        IOPortTag & x"00" & NullTag & NullPin,              -- I/O 03   GPIO_0 04    04        GP_Input_02
+        IOPortTag & x"00" & NullTag & NullPin,              -- I/O 04   GPIO_0 05    05        GP_Input_05
+        IOPortTag & x"00" & NullTag & NullPin,              -- I/O 05   GPIO_0 06    06        GP_Input_04
+        IOPortTag & x"00" & NullTag & NullPin,              -- I/O 06   GPIO_0 07    07        GP_Input_07
+        IOPortTag & x"00" & NullTag & NullPin,              -- I/O 07   GPIO_0 08    08        GP_Input_06
+        IOPortTag & x"00" & NullTag & NullPin,              -- I/O 08   GPIO_0 09    09        GP_Input_09
+        IOPortTag & x"00" & NullTag & NullPin,              -- I/O 09   GPIO_0 10    10        GP_Input_08
+        IOPortTag & x"00" & NullTag & NullPin,              -- I/O 10   GPIO_0 11    13        GP_Input_11
+        IOPortTag & x"00" & NullTag & NullPin,              -- I/O 11   GPIO_0 12    14        GP_Input_10
+        IOPortTag & x"00" & NullTag & NullPin,              -- I/O 12   GPIO_0 13    15        GP_Input_13
+        IOPortTag & x"00" & NullTag & NullPin,              -- I/O 13   GPIO_0 14    16        GP_Input_12
+        IOPortTag & x"00" & NullTag & NullPin,              -- I/O 14   GPIO_0 15    17        GP_Input_15
+        IOPortTag & x"00" & NullTag & NullPin,              -- I/O 15   GPIO_0 16    18        GP_Input_14
+        IOPortTag & x"01" & QCountTag & QCountIdxPin,       -- I/O 16   GPIO_0 17    19        Enc1 Z
+        IOPortTag & x"00" & QCountTag & QCountIdxPin,       -- I/O 17   GPIO_0 18    20        Enc0 Z
+        IOPortTag & x"00" & QCountTag & QCountQAPin,        -- I/O 18   GPIO_0 19    21        Enc0 A
+        IOPortTag & x"02" & QCountTag & QCountIdxPin,       -- I/O 19   GPIO_0 20    22        Enc2 Z
+        IOPortTag & x"02" & QCountTag & QCountQAPin,        -- I/O 20   GPIO_0 21    23        Enc2 A
+        IOPortTag & x"01" & QCountTag & QCountQAPin,        -- I/O 21   GPIO_0 22    24        Enc1 A
+        IOPortTag & x"01" & QCountTag & QCountQBPin,        -- I/O 22   GPIO_0 23    25        Enc1 B
+        IOPortTag & x"00" & QCountTag & QCountQBPin,        -- I/O 23   GPIO_0 24    26        Enc0 B
+        IOPortTag & x"03" & QCountTag & QCountIdxPin,       -- I/O 24   GPIO_0 25    27        Enc3 Z
+        IOPortTag & x"02" & QCountTag & QCountQBPin,        -- I/O 25   GPIO_0 26    28        Enc2 B
+        IOPortTag & x"05" & QCountTag & QCountIdxPin,       -- I/O 26   GPIO_0 27    31        Enc5 Z
+        IOPortTag & x"04" & QCountTag & QCountIdxPin,       -- I/O 27   GPIO_0 28    32        Enc4 Z
+        IOPortTag & x"04" & QCountTag & QCountQAPin,        -- I/O 28   GPIO_0 29    33        Enc4 A
+        IOPortTag & x"03" & QCountTag & QCountQAPin,        -- I/O 29   GPIO_0 30    34        Enc3 A
+        IOPortTag & x"03" & QCountTag & QCountQBPin,        -- I/O 30   GPIO_0 31    35        Enc3 B
+        IOPortTag & x"05" & QCountTag & QCountQAPin,        -- I/O 31   GPIO_0 32    36        Enc5 A
+        IOPortTag & x"05" & QCountTag & QCountQBPin,        -- I/O 32   GPIO_0 33    37        Enc5 B
+        IOPortTag & x"04" & QCountTag & QCountQBPin,        -- I/O 33   GPIO_0 34    38        Enc4 B
         IOPortTag & x"00" & NullTag & NullPin,              -- I/O 34   GPIO_0 35    39        GP_Output_HC_17
         IOPortTag & x"00" & NullTag & NullPin,              -- I/O 35   GPIO_0 36    40        GP_Output_HC_16
 
